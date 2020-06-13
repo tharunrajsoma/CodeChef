@@ -52,7 +52,7 @@ int main() {
 	while(t--) {
 		int n=0, max=0;
 		cin>>n>>max;
-		vector<int> v[n];
+		vector<int> v(n,0);
 		for(int i=0;i<n;i++) {
 			cin>>v[i];
 		}
